@@ -1,0 +1,63 @@
+#!/bin/sh
+# list-dependencies — List Trial dependencies in qlfile format
+#
+# SPDX-FileCopyrightText: Copyright (c) 2024 Paul A. Patience <paul@apatience.com>
+# SPDX-License-Identifier: MIT
+
+# cl-mixed, harmony, sdl2 and trial cause problems in passel-list.
+
+/home/paul/projects/passel/passel-list \
+  3d-matrices \
+  3d-quaternions \
+  3d-transforms \
+  3d-vectors \
+  alexandria \
+  alloy \
+  atomics \
+  bordeaux-threads \
+  cl-autowrap \
+  cl-gamepad \
+  cl-glfw3 \
+  cl-gltf \
+  cl-jpeg \
+  cl-opengl \
+  cl-ppcre \
+  cl-tga \
+  classimp \
+  closer-mop \
+  deploy \
+  dns-client \
+  fast-io \
+  file-notify \
+  flare \
+  float-features \
+  flow \
+  for \
+  form-fiddle \
+  glop \
+  glsl-toolkit \
+  ieee-floats \
+  jzon \
+  lambda-fiddle \
+  language-codes \
+  lquery \
+  messagebox \
+  mmap \
+  pathname-utils \
+  pngload \
+  promise \
+  retrospectiff \
+  simple-tasks \
+  static-vectors \
+  stealth-mixin \
+  system-locale \
+  terrable \
+  trivial-channels \
+  trivial-extensible-sequences \
+  trivial-features \
+  trivial-garbage \
+  trivial-indent \
+  trivial-main-thread \
+  verbose \
+  zpng \
+  | grep -v '^#'
