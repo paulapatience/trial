@@ -1,99 +1,123 @@
-git 3b-bmfont https://github.com/Shinmera/3b-bmfont/ :ref 58e529d24b7799d56b4b3f9c8a953b585d42c7d2
-git 3bz https://github.com/3b/3bz :ref 569614c40408f3aefc77ba233e0e4bd66d3850ad
-git 3d-matrices https://github.com/Shinmera/3d-matrices :ref b4f5a58299f8437fad2d77f0879c374e3430f4b5
-git 3d-quaternions https://github.com/Shinmera/3d-quaternions :ref b79c15cca8d9c409216a6cee8ec9e182dcdec9e2
-git 3d-transforms https://github.com/Shinmera/3d-transforms :ref 1d44509387d0747cd0351e95a533eca609058632
-git 3d-vectors https://github.com/Shinmera/3d-vectors :ref 257969402864ac3859d77b981abf0aa5373c4e78
-git alexandria https://gitlab.common-lisp.net/alexandria/alexandria.git :ref 009b7e532071d9777bdbd63b82d776555da95916
-git alloy https://github.com/Shirakumo/alloy :ref 628974de537affb5b44ad548347f67c16efffcfc
-git array-utils https://github.com/Shinmera/array-utils :ref 29da8fccf6093fe8f8c7b2daef7de1a428ef1834
-git atomics https://github.com/Shinmera/atomics :ref b7477024894e322bff9c85e6d81e5e8d1d4eae59
-git babel https://github.com/cl-babel/babel :ref 627d6a60d0ffc82a3687b39ba8a99128031504d9
-git binpack https://github.com/lispgames/binpack :ref e67f56bb697bdeac81e28e1cca4a5d117a9cf125
-git bordeaux-threads https://github.com/sionescu/bordeaux-threads :tag v0.9.3
-git cffi https://github.com/cffi/cffi :ref 33970351e71bb5f12ba56fc40270089e948ae112
-git chipz https://github.com/sharplispers/chipz :ref 82a17d39c78d91f6ea63a03aca8f9aa6069a5e11
-git cl-autowrap https://github.com/rpav/cl-autowrap :ref a5d71ebd7c21b87f449db1e16ab815750d7c0ea4
-git cl-gamepad https://github.com/Shirakumo/cl-gamepad :ref d5b99fbaa2e39294d23061699e8f1e761eda7205
-git cl-glfw3 https://github.com/AlexCharlton/cl-glfw3 :ref 32c3f34d592d55ee7ce932ed85804c1a9c4158c6
-git cl-gltf https://github.com/Shirakumo/cl-gltf :ref 7a3af05a7f491d8973b217f096806ef12a97474b
-git cl-jpeg https://github.com/sharplispers/cl-jpeg :ref ec557038128df6895fbfb743bfe8faf8ec2534af
-git cl-json https://github.com/sharplispers/cl-json :tag v0.6.0
-git cl-opengl https://github.com/3b/cl-opengl :ref e2d83e0977b7e7ac3f3d348d8ccc7ccd04e74d59
-git cl-ppcre https://github.com/edicl/cl-ppcre :tag v2.1.1
-git cl-tga https://github.com/fisxoj/cl-tga :ref 4dc2f7b8a259b9360862306640a07a23d4afaacc
+# Alloy is excluded, as is Trial, of course.
+# Some of these might be out of date, i.e., unnecessary.
+github 3b/3b-bmfont :ref 056025a28e07265f69bb691397beb2f903099080
+github 3b/3b-hdr :ref b16fb6a7cffc9fada0ffa6a3c4cb292a7db9f202
+github 3b/3bz :ref 569614c40408f3aefc77ba233e0e4bd66d3850ad
+github Shinmera/3d-math :ref e6cd4007edbab2839d902e1eff9a143376fd9696
+github Shinmera/3d-matrices :ref b4f5a58299f8437fad2d77f0879c374e3430f4b5
+github Shinmera/3d-quaternions :ref b79c15cca8d9c409216a6cee8ec9e182dcdec9e2
+github Shirakumo/3d-spaces :ref 48a8dcf0b48548fe9faca6ec80e183e81d557a1d
+github Shinmera/3d-transforms :ref 1d44509387d0747cd0351e95a533eca609058632
+github Shinmera/3d-vectors :ref 257969402864ac3859d77b981abf0aa5373c4e78
+gitlab https://gitlab.common-lisp.net/alexandria/alexandria :ref 49e82add16cb9f1ffa72c77cd687271247181ff3
+github Shinmera/array-utils :ref fe76b3b554616e78bf25aec0e53110fb8db38946
+github Shinmera/atomics :ref b7477024894e322bff9c85e6d81e5e8d1d4eae59
+github cl-babel/babel :ref 627d6a60d0ffc82a3687b39ba8a99128031504d9
+github lispgames/binpack :ref bbada6d3a7d2c0a544e621fd18eed30a1e483037
+github sionescu/bordeaux-threads :ref 50ade2908082a1305a4e3ef4a4363aacda653f94
+github cffi/cffi :ref 33970351e71bb5f12ba56fc40270089e948ae112
+github sharplispers/chipz :ref 82a17d39c78d91f6ea63a03aca8f9aa6069a5e11
+github Shirakumo/cl-gamepad :ref d5b99fbaa2e39294d23061699e8f1e761eda7205
+github AlexCharlton/cl-glfw3 :ref 32c3f34d592d55ee7ce932ed85804c1a9c4158c6
+github Shirakumo/cl-gltf :ref 9ef78e9f0ec3dbef2266cd5524eb84780d9b61d4
+github sharplispers/cl-jpeg :ref ec557038128df6895fbfb743bfe8faf8ec2534af
+github Shirakumo/cl-mixed :ref a2c88064b1bfa1a851871915b7a306118b4e454b
+github 3b/cl-opengl :ref e2d83e0977b7e7ac3f3d348d8ccc7ccd04e74d59
+github edicl/cl-ppcre :tag v2.1.1
+github lispgames/cl-sdl2 :ref 485c8ab2d390e1f46e881d5d8cc7790c0f636a50
+github fisxoj/cl-tga :ref 4dc2f7b8a259b9360862306640a07a23d4afaacc
+github Shirakumo/cl-theora :ref 74b2441b5836966e3b68c716bacdceca95fba0ac
+github Shirakumo/cl-turbojpeg :ref 1e762daf397abc057bc43453a4f44f39bda05f19
+github Shirakumo/cl-wavefront :ref 8de1347c7ad4ebe94c90202ae3f28328ee54251f
 http cl-vectors http://projects.tuxee.net/cl-vectors/files/cl-vectors-0.1.5.tar.gz
-git classimp https://github.com/3b/classimp :ref d82a14c59bc733f89a1ea0b3447ebedddce5756e
-git closer-mop https://github.com/pcostanza/closer-mop :ref 7b86f2add029208ebc74ec6a41c2ccfd3c382dbc
-git closure-common https://github.com/sharplispers/closure-common :ref e3c5f5f454b72b01b89115e581c3c52a7e201e5c
-git clss https://github.com/Shinmera/clss :ref f62b849189c5d1be378f0bd3d403cda8d4fe310b
-git colored https://github.com/Shinmera/colored/ :ref bee87efb0b047da0f071f5cf1457997ab5f93feb
-git com.gigamonkeys.binary-data https://github.com/gigamonkey/monkeylib-binary-data :ref 22e908976d7f3e2318b7168909f911b4a00963ee
-git cxml https://github.com/sharplispers/cxml :ref 00b22bf4c4cf11c993d5866fae284f95ab18e6bf
-git deflate https://github.com/pmai/Deflate :tag release-1.0.3
-git defpackage-plus https://github.com/rpav/defpackage-plus :ref 5492e27e0bdb7b75fa5177ea4388519dc7a75f11
-git deploy https://github.com/Shinmera/deploy :ref 9b20e64fe924b9e31832304d87a3a72c383dc6d8
-git dissect https://github.com/Shinmera/dissect :ref cffd38479f0e64e805f167bbdb240b783ecc8d45
-git dns-client https://github.com/Shinmera/dns-client :ref 9f252e9c2bb61c57a6cd367e21ad366b0d3e87e0
-git documentation-utils https://github.com/Shinmera/documentation-utils :ref 98630dd5f7e36ae057fa09da3523f42ccb5d1f55
-git fast-io https://github.com/rpav/fast-io :ref a4c5ad600425842e8b6233b1fa22610ffcd874c3
-git file-notify https://github.com/Shinmera/file-notify :ref f12dc2f2aae5fee13355cd93a8cae0c4c412b76d
-git flare https://github.com/Shinmera/flare :ref 4f9f17a4fc5b368c2a1988b9a20288695b8d8c48
-git flexi-streams https://github.com/edicl/flexi-streams :ref 74a1027311371a57258eba1bc908e050f5702277
-git float-features https://github.com/Shinmera/float-features :ref c1f86aea91cfaa3aa59799162be23ef8a12b199d
-git flow https://github.com/Shinmera/flow :ref 6d925af009cdfe033650d7048197a5e6ee937d15
-git font-discovery https://github.com/Shinmera/font-discovery :ref 5101ca79151055f3ec9839aae73b8af42b884528
-git for https://github.com/Shinmera/for :ref 2e4fcfa0f9c1d2f4559c58cef20ccefa50ba180d
-git form-fiddle https://github.com/Shinmera/form-fiddle :ref e0c23599dbb8cff3e83e012f3d86d0764188ad18
-git global-vars https://github.com/lmj/global-vars :ref c749f32c9b606a1457daa47d59630708ac0c266e
-git glop https://github.com/lispgames/glop :ref 45e722ab4a0cd2944d550bf790206b3326041e38
-git glsl-toolkit https://github.com/Shirakumo/glsl-toolkit :ref 4c4889e75c635772c4df70b11d6f14e7a596da43
-git ieee-floats https://github.com/marijnh/ieee-floats/ :ref 566b51a005e81ff618554b9b2f0b795d3b29398d
-git iterate https://gitlab.common-lisp.net/iterate/iterate.git :tag 1.5.3
-git jsown https://github.com/madnificent/jsown :ref 744c4407bef58dfa876d9da0b5c0205d869e7977
-git jzon https://github.com/Zulu-Inuoe/jzon :tag v1.1.0
-git lambda-fiddle https://github.com/Shinmera/lambda-fiddle :ref d16bba55acf6065b412f64ab8fdff679a4a32b1e
-git language-codes https://github.com/Shinmera/language-codes :ref e7aa0e37cb97a3d37d6bc7316b479d01bff8f42e
-git local-time https://github.com/dlowe-net/local-time :ref 40169fe26d9639f3d9560ec0255789bf00b30036
-git lquery https://github.com/Shinmera/lquery :ref 8048111c6b83956daa632e7a3ffbd8c9c203bd8d
-git messagebox https://github.com/Shinmera/messagebox :ref ea3688d9a9954bee7079c0173bc7b3f327021e9f
-git metabang-bind https://github.com/hraban/metabang-bind :ref 08196426cb099db0623e6cae2aeca566e0b788b2
-git mmap https://github.com/Shinmera/mmap :ref ba2e98c67e25f0fb8ff838238561120a23903ce7
-git nibbles https://github.com/sharplispers/nibbles/ :ref a46a67736e07b548cdd7485cb36834f7942313f1
-git opticl https://github.com/slyrus/opticl :ref f6fc4dc5fa61ae3f2527b77e4bda99001ba37dcb
-git opticl-core https://github.com/slyrus/opticl-core :ref b7cd13d26df6b824b216fbc360dc27bfadf04999
-git parse-float https://github.com/soemraws/parse-float :ref 3074765101e41222b6b624a66aaf1e6416379f9c
-git parse-number https://github.com/sharplispers/parse-number/ :tag v1.7
-git pathname-utils https://github.com/Shinmera/pathname-utils :ref f28068a79825f37002e96d13dfd739172382bf94
-git piping https://github.com/Shinmera/piping/ :ref c7a4163c00dea7e72bf6ad33d6abac0d5826a656
-git plump https://github.com/Shinmera/plump :ref 0c3e0b57b43b6e0c5794b6a902f1cf5bee2a2927
-git png-read https://github.com/Ramarren/png-read :ref ec29f38a689972b9f1373f13bbbcd6b05deada88
-git pngload https://git.mfiano.net/mfiano/pngload.git :ref 91f1d703c65bb6a94d6fee06ddbbbbbc5778b71f
-git promise https://github.com/Shinmera/promise :ref 801db8f853da7935ae2e487fd7f8763acbc5ad2a
+github 3b/classimp :ref d82a14c59bc733f89a1ea0b3447ebedddce5756e
+github Shinmera/classowary :ref 61dcc528ccd74da36e5c7406bcaa536cbb67a56f
+github pcostanza/closer-mop :ref 7b86f2add029208ebc74ec6a41c2ccfd3c382dbc
+github sharplispers/closure-common :ref e3c5f5f454b72b01b89115e581c3c52a7e201e5c
+github Shinmera/clss :ref f62b849189c5d1be378f0bd3d403cda8d4fe310b
+github Shinmera/colored :ref 50ade2908082a1305a4e3ef4a4363aacda653f94
+github gigamonkey/monkeylib-binary-data :ref 22e908976d7f3e2318b7168909f911b4a00963ee
+github Shirakumo/convex-covering :ref 9a92e61f4da289ed575e16c4169c99eab121f180
+github sharplispers/cxml :ref 00b22bf4c4cf11c993d5866fae284f95ab18e6bf
+github phoe/damn-fast-priority-queue :ref c1cab48e008b9fb85cb3556d7305cbd8c0b7d9b8
+github pmai/Deflate :tag release-1.0.3
+github Shinmera/deploy :ref 9b20e64fe924b9e31832304d87a3a72c383dc6d8
+github Shinmera/depot :ref c0b98c15868c1b774ee3c0a500bc63fcc19efce0
+github Shinmera/dissect :ref cffd38479f0e64e805f167bbdb240b783ecc8d45
+github Shinmera/dns-client :ref 9f252e9c2bb61c57a6cd367e21ad366b0d3e87e0
+github Shinmera/documentation-utils :ref 0196f6ce6828a745121374c238972491074f5eb1
+github rpav/fast-io :ref a4c5ad600425842e8b6233b1fa22610ffcd874c3
+github Shinmera/file-attributes :ref 8bcd3325fd472913fce5dd356faeed5891dddbb3
+github Shinmera/file-notify :ref f12dc2f2aae5fee13355cd93a8cae0c4c412b76d
+github Shinmera/file-select :ref f1e670124c64d371311659640f823f7d033d7c0f
+github Shinmera/filesystem-utils :ref a07e8b61b89d4b46408fb9294d9b8130e8c8a02e
+github Shinmera/flare :ref 4f9f17a4fc5b368c2a1988b9a20288695b8d8c48
+github edicl/flexi-streams :ref 74a1027311371a57258eba1bc908e050f5702277
+github Shinmera/float-features :ref c1f86aea91cfaa3aa59799162be23ef8a12b199d
+github Shinmera/flow :ref 6d925af009cdfe033650d7048197a5e6ee937d15
+github Shinmera/font-discovery :ref 5101ca79151055f3ec9839aae73b8af42b884528
+github Shinmera/for :ref 2e4fcfa0f9c1d2f4559c58cef20ccefa50ba180d
+github Shinmera/form-fiddle :ref e0c23599dbb8cff3e83e012f3d86d0764188ad18
+github Shirakumo/glfw :ref 9054b7f9e8806a15b8f71031b6d437af48c79279
+github lmj/global-vars :ref c749f32c9b606a1457daa47d59630708ac0c266e
+github lispgames/glop :ref 45e722ab4a0cd2944d550bf790206b3326041e38
+github Shirakumo/glsl-toolkit :ref b7b50fdce4bffa4cefdcb67a27e444784d348d44
+github Shirakumo/glsl-toolkit :ref 4c4889e75c635772c4df70b11d6f14e7a596da43
+github Shirakumo/harmony :ref 07c3d4e616bb4b5e009836ee90c30289516670f9
+github marijnh/ieee-floats :ref 566b51a005e81ff618554b9b2f0b795d3b29398d
+gitlab https://gitlab.common-lisp.net/iterate/iterate :ref 26cf129a03b45d6dd7d2a659622244d20a9ab6f5
+github madnificent/jsown :ref 744c4407bef58dfa876d9da0b5c0205d869e7977
+github Zulu-Inuoe/jzon :tag v1.1.0
+github Shinmera/lambda-fiddle :ref d16bba55acf6065b412f64ab8fdff679a4a32b1e
+github Shinmera/language-codes :ref e7aa0e37cb97a3d37d6bc7316b479d01bff8f42e
+github dlowe-net/local-time :ref 40169fe26d9639f3d9560ec0255789bf00b30036
+github Shinmera/lquery :ref 8048111c6b83956daa632e7a3ffbd8c9c203bd8d
+github Shinmera/lru-cache :ref a43747f527b5e263b049f4774bec9949fd92a2ca
+github Shinmera/memory-regions :ref dc39b5cf0691799aec944af23e5cd5c93500849e
+github Shinmera/messagebox :ref ea3688d9a9954bee7079c0173bc7b3f327021e9f
+github hraban/metabang-bind :ref 08196426cb099db0623e6cae2aeca566e0b788b2
+github Shinmera/mmap :ref a44d4b7a0106a02ae1169695d5ac9943ae2e551d
+github sharplispers/nibbles :ref 5e495624eec2767fc037f17f1d58af2efd7fa6b6
+github slyrus/opticl :ref f6fc4dc5fa61ae3f2527b77e4bda99001ba37dcb
+github slyrus/opticl-core :ref b7cd13d26df6b824b216fbc360dc27bfadf04999
+github soemraws/parse-float :ref 3074765101e41222b6b624a66aaf1e6416379f9c
+github sharplispers/parse-number :ref cb9e48758a51ddf3296b56c41ce0006617b00916
+github Shinmera/pathname-utils :ref f28068a79825f37002e96d13dfd739172382bf94
+github Shinmera/piping :ref c7a4163c00dea7e72bf6ad33d6abac0d5826a656
+github Shinmera/plump :ref 0c3e0b57b43b6e0c5794b6a902f1cf5bee2a2927
+github Ramarren/png-read :ref ec29f38a689972b9f1373f13bbbcd6b05deada88
+github 3b/pngload :ref e9ea54f095ac7b4d25ab53a58b4303331f5b8e4b
+github Shinmera/promise :ref 801db8f853da7935ae2e487fd7f8763acbc5ad2a
 git puri http://git.kpe.io/puri.git :ref 4bbab89d9ccbb26346899d1f496c97604fec567b
-git qbase64 https://github.com/chaitanyagupta/qbase64 :tag 0.3.0
-git retrospectiff https://github.com/slyrus/retrospectiff :ref 2fbf8c687799487654d988c7036d19d75a7fc67d
-git salza2 https://github.com/xach/salza2 :tag release-2.1
-git sdf https://github.com/Shinmera/sdf :ref e1ab3ac4ea52c0e0119b832f428c71f580b4d83b
-git simple-tasks https://github.com/Shinmera/simple-tasks :ref 745d4b54eac9bf5d6909792e63ecd2ef8d303cf2
-git skippy https://github.com/xach/skippy :ref e456210202ca702c792292c5060a264d45e47090
-git split-sequence https://github.com/sharplispers/split-sequence :tag v2.0.1
-git static-vectors https://github.com/sionescu/static-vectors :tag v1.8.9
-git stealth-mixin https://github.com/robert-strandh/Stealth-mixin :ref 2f853fcead554221d4be3b10522b502ea729e944
-git swap-bytes https://github.com/sionescu/swap-bytes :tag v1.2
-git system-locale https://github.com/Shinmera/system-locale/ :ref 4b334bc2fa45651bcaa28ae7d9331095d6bf0a17
-git terrable https://github.com/Shirakumo/terrable :ref e4fe23ffa08e8d53a8168105b413861da59cc786
-git trivial-channels https://github.com/rpav/trivial-channels :ref e2370118d8983ba69c0360a7695f8f2e2fd6a8a6
-git trivial-extensible-sequences https://github.com/Shinmera/trivial-extensible-sequences :ref d40b2da23716601578b1f645727047f80baeb49a
-git trivial-features https://github.com/trivial-features/trivial-features :tag v1.0
-git trivial-garbage https://github.com/trivial-garbage/trivial-garbage :ref 3474f6414b73d4e3aa2d5c53080f4247a34f6380
-git trivial-gray-streams https://github.com/trivial-gray-streams/trivial-gray-streams :ref 2b3823edbc78a450db4891fd2b566ca0316a7876
-git trivial-indent https://github.com/Shinmera/trivial-indent :ref f25275094b80df8aa158af46db980bbc3ce2f88b
-git trivial-main-thread https://github.com/Shinmera/trivial-main-thread :ref 25f114973bb69eb63e01d0bbfead31f8e682846a
-git trivial-timeout https://github.com/hraban/trivial-timeout :ref e70d9b4f7caeab83ea6ac50d724470fe49561e66
-git uax-14 https://github.com/Shinmera/uax-14 :ref 0432162525119c401d3d705bb9bcc9580a03914f
-git usocket https://github.com/usocket/usocket/ :tag v0.8.6
-git verbose https://github.com/Shinmera/verbose/ :ref c5b7ecd465be61b35af17ef57564697b88397174
-git zpb-exif https://github.com/xach/zpb-exif :tag release-1.2.5
-git zpb-ttf https://github.com/xach/zpb-ttf :tag release-1.0.6
-git zpng https://github.com/xach/zpng :tag release-1.2.2
+github chaitanyagupta/qbase64 :tag 0.3.0
+github Shirakumo/quickhull :ref f128f178a659ca8e780c9afac390888d4ea5cf02
+github Shinmera/random-sampling :ref 85573534fddca6bd9766def9a9f44ce2ede5901b
+github Shinmera/random-state :ref 9d7bf42c56cb744dfae47a70146805e090dc7dca
+github slyrus/retrospectiff :ref 2fbf8c687799487654d988c7036d19d75a7fc67d
+github xach/salza2 :tag release-2.1
+github Shinmera/sdf :ref 9bd94a51b6e6e3965b9f44f4154af9705a43688b
+github pmai/sha3 :ref a4baa05e72ee05aba545152a2ffe2e46fbfa3d4b
+github Shinmera/simple-tasks :ref 745d4b54eac9bf5d6909792e63ecd2ef8d303cf2
+github xach/skippy :ref e456210202ca702c792292c5060a264d45e47090
+github sharplispers/split-sequence :tag v2.0.1
+github sionescu/static-vectors :tag v1.8.9
+github robert-strandh/Stealth-mixin :ref 2f853fcead554221d4be3b10522b502ea729e944
+github sionescu/swap-bytes :tag v1.2
+github Shinmera/system-locale :ref 4b334bc2fa45651bcaa28ae7d9331095d6bf0a17
+github Shirakumo/terrable :ref e4fe23ffa08e8d53a8168105b413861da59cc786
+github Shirakumo/trial-assets :ref 0a8e494f35058b7ac0668a1a757e0470e74467b3
+github Shinmera/trivial-deprecate :ref d142cb614fd48bcb56e0e1f80292dd32d52dfd93
+github Shinmera/trivial-extensible-sequences :ref d40b2da23716601578b1f645727047f80baeb49a
+github trivial-features/trivial-features :tag v1.0
+github trivial-garbage/trivial-garbage :ref 3474f6414b73d4e3aa2d5c53080f4247a34f6380
+github trivial-gray-streams/trivial-gray-streams :ref 2b3823edbc78a450db4891fd2b566ca0316a7876
+github Shinmera/trivial-indent :ref b5d490f9c619a8e9ec9e43fe76892e27d3e0f9a8
+github Shinmera/trivial-main-thread :ref 25f114973bb69eb63e01d0bbfead31f8e682846a
+github Shinmera/type-templates :ref 5b389ebcff61b81585a64d0b899b69fa12aa5f96
+github Shinmera/uax-14 :ref 0432162525119c401d3d705bb9bcc9580a03914f
+github usocket/usocket :tag v0.8.6
+github Shinmera/verbose :ref c5b7ecd465be61b35af17ef57564697b88397174
+github Shinmera/zippy :ref 436a4242b0a6ab631409dfe555ce0bcd348b3ac2
+github xach/zpb-exif :tag release-1.2.5
+github xach/zpb-ttf :tag release-1.0.6
+github xach/zpng :tag release-1.2.2
